@@ -1,0 +1,5 @@
+model,accuracy,balanced_accuracy,macro_f1,recall_S,recall_V,recall_F
+logreg,0.914,0.588,0.657,0.449,0.337,0.281
+logreg_balanced,0.675,0.772,0.482,0.692,0.739,0.852
+rf,0.976,0.815,0.876,0.62,0.892,0.609
+rf_balanced,0.98,0.869,0.9,0.746,0.936,0.695

@@ -1,0 +1,16 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (download from Kaggle, see README)
+data/raw/*.csv
+
+# Trained model weights
+results/models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

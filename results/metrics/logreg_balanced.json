@@ -1,0 +1,48 @@
+{
+  "name": "logreg_balanced",
+  "params": {
+    "model": "LogisticRegression",
+    "scaler": "StandardScaler",
+    "class_weight": "balanced",
+    "max_iter": 2000,
+    "random_state": 42,
+    "train_time_s": 8.5
+  },
+  "metrics": {
+    "accuracy": 0.6747758551767461,
+    "balanced_accuracy": 0.7724115230926117,
+    "macro_f1": 0.48212325910356124,
+    "per_class": {
+      "N": {
+        "precision": 0.9735278791036999,
+        "recall": 0.6444735752725266,
+        "f1": 0.7755407032255386,
+        "support": 14494
+      },
+      "S": {
+        "precision": 0.15209876543209877,
+        "recall": 0.6921348314606741,
+        "f1": 0.2493927125506073,
+        "support": 445
+      },
+      "V": {
+        "precision": 0.29825783972125436,
+        "recall": 0.7392055267702936,
+        "f1": 0.42502482621648463,
+        "support": 1158
+      },
+      "F": {
+        "precision": 0.08068097705403404,
+        "recall": 0.8515625,
+        "f1": 0.14739688979039892,
+        "support": 128
+      },
+      "Q": {
+        "precision": 0.7197604790419162,
+        "recall": 0.9346811819595645,
+        "f1": 0.8132611637347767,
+        "support": 1286
+      }
+    }
+  }
+}

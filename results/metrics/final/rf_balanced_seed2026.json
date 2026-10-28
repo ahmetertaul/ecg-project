@@ -1,0 +1,47 @@
+{
+  "name": "rf_balanced_seed2026",
+  "params": {
+    "model": "RandomForestClassifier",
+    "n_estimators": 200,
+    "class_weight": "balanced",
+    "seed": 2026,
+    "train_time_s": 6.4
+  },
+  "metrics": {
+    "accuracy": 0.9797841356861401,
+    "balanced_accuracy": 0.8732589557941587,
+    "macro_f1": 0.9011020995074718,
+    "per_class": {
+      "N": {
+        "precision": 0.9849449120646,
+        "recall": 0.9930315992824618,
+        "f1": 0.9889717250146013,
+        "support": 14494
+      },
+      "S": {
+        "precision": 0.9088397790055248,
+        "recall": 0.7393258426966293,
+        "f1": 0.815365551425031,
+        "support": 445
+      },
+      "V": {
+        "precision": 0.9442993907745866,
+        "recall": 0.9369602763385146,
+        "f1": 0.94061551798873,
+        "support": 1158
+      },
+      "F": {
+        "precision": 0.8518518518518519,
+        "recall": 0.71875,
+        "f1": 0.7796610169491526,
+        "support": 128
+      },
+      "Q": {
+        "precision": 0.983580922595778,
+        "recall": 0.9782270606531882,
+        "f1": 0.980896686159844,
+        "support": 1286
+      }
+    }
+  }
+}

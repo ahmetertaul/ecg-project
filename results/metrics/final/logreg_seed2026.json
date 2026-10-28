@@ -1,0 +1,47 @@
+{
+  "name": "logreg_seed2026",
+  "params": {
+    "model": "LogisticRegression",
+    "scaler": "StandardScaler",
+    "class_weight": null,
+    "seed": 2026,
+    "train_time_s": 7.6
+  },
+  "metrics": {
+    "accuracy": 0.9137113814173948,
+    "balanced_accuracy": 0.587910007535615,
+    "macro_f1": 0.6571789332378222,
+    "per_class": {
+      "N": {
+        "precision": 0.9253430448071795,
+        "recall": 0.9817165723747757,
+        "f1": 0.9526965953600482,
+        "support": 14494
+      },
+      "S": {
+        "precision": 0.819672131147541,
+        "recall": 0.449438202247191,
+        "f1": 0.5805515239477503,
+        "support": 445
+      },
+      "V": {
+        "precision": 0.6341463414634146,
+        "recall": 0.33678756476683935,
+        "f1": 0.43993231810490696,
+        "support": 1158
+      },
+      "F": {
+        "precision": 0.6923076923076923,
+        "recall": 0.28125,
+        "f1": 0.4,
+        "support": 128
+      },
+      "Q": {
+        "precision": 0.9362224039247752,
+        "recall": 0.890357698289269,
+        "f1": 0.912714228776405,
+        "support": 1286
+      }
+    }
+  }
+}
